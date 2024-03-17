@@ -1,0 +1,6 @@
+CREATE TABLE
+    IF NOT EXISTS years (
+        id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL,
+        hijri INT UNSIGNED NOT NULL,
+        ad INT UNSIGNED NOT NULL
+    ) engine = InnoDB;
